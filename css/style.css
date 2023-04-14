@@ -381,13 +381,13 @@ section{
     color:#fff;
 }
 
-.portfolio .box-container{
+.certificates .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
 }
 
-.portfolio .box-container .box{
+.certificates .box-container .box{
     height: 75rem;
     border-radius: .5rem;
 /*     overflow:hidden; */
@@ -396,13 +396,13 @@ section{
     border:1rem solid transparent;
 }
 
-.portfolio .box-container .box img{
+.certificates .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box .content{
+.certificates .box-container .box .content{
     position: absolute;
     top:0; left: 0;
     height: 100%;
@@ -413,11 +413,11 @@ section{
     transform: scale(0);
 }
 
-.portfolio .box-container .box:hover .content{
+.certificates .box-container .box:hover .content{
     transform: scale(1);
 }
 
-.portfolio .box-container .box .content h3{
+.certificates .box-container .box .content h3{
     font-size: 2.5rem;
     color:var(--black);
     text-transform: uppercase;
@@ -426,7 +426,7 @@ section{
     transition-delay: .3s;
 }
 
-.portfolio .box-container .box:hover .content h3{
+.certificates .box-container .box:hover .content h3{
     transform: translateY(0rem);
     opacity: 1;
 }
