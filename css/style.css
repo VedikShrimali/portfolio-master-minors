@@ -388,7 +388,7 @@ section{
 }
 
 .certificates .box-container .box{
-    height: 75rem;
+    height: 275rem;
     border-radius: .5rem;
 /*     overflow:hidden; */
     box-shadow: var(--box-shadow);
